@@ -17,7 +17,7 @@ timeElapse(together);
         	//描绘画图
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
-            S.UI.simulate("项晶|I|think|it's|the|best|thing|to|meet|you|#countdown 3|#time");
+            S.UI.simulate("项晶|I|think|that|the|best|thing|is|to|meet|you|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
